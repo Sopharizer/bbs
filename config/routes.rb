@@ -1,4 +1,6 @@
 Bbs::Application.routes.draw do
+  resources :responses
+
   get "main/index"
   resources :articles
 
